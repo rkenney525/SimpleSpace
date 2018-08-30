@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+jar {
+	manifest {
+		attributes("Main-Class": 'diddies/SimpleSpace')
+	}
+}
